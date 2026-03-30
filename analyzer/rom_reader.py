@@ -3,7 +3,7 @@
 from enum import IntEnum
 import io
 from typing import IO, List
-from constants import CHAR_MAP
+from .constants import CHAR_MAP
 
 OVERWORLD_DATA_LOCATION = 0x18400
 LEVEL_1_TO_6_FIRST_QUEST_DATA_LOCATION = 0x18700

@@ -1,13 +1,13 @@
 # https://github.com/tetraly/z1r-visualizer/blob/main/data_extractor.py
 
-from rom_reader import RomReader
+from .rom_reader import RomReader
 import io
 from typing import IO, List
 import math
 from typing import Any, Dict, List, Optional
-from constants import Direction, WallType, ROOM_TYPES, ENEMY_TYPES, ITEM_TYPES
-from constants import ENTRANCE_DIRECTION_MAP, PALETTE_COLORS, CAVE_NAME_SHORT, CAVE_NAME
-from constants import OVERWORLD_BLOCK_TYPES, DOOR_TYPES
+from .constants import Direction, WallType, ROOM_TYPES, ENEMY_TYPES, ITEM_TYPES
+from .constants import ENTRANCE_DIRECTION_MAP, PALETTE_COLORS, CAVE_NAME_SHORT, CAVE_NAME
+from .constants import OVERWORLD_BLOCK_TYPES, DOOR_TYPES
 
 PALETTE_OFFSET = 0xB
 START_ROOM_OFFSET = 0x2F
